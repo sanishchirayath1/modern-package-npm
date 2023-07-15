@@ -1,6 +1,7 @@
 {
-  "name": "@sanishchirayath/-package-npm",
+  "name": "@sanishchirayath/modern-package-npm",
   "version": "0.0.0-development",
+  "type": "module",
   "description": "An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
   "exports": {
     ".": {
@@ -53,7 +54,7 @@
     "example",
     "demonstration"
   ],
-  "author": "Snyk Labs",
+  "author": "Sanish Chirayath",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sanishchirayath1/modern-package-npm/issues"
