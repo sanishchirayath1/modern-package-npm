@@ -1,14 +1,70 @@
 export function helloWorld() {
-  const message = 'Hello World from my example modern npm package!';
+  const message = "Hello World from my example modern npm package!";
   return message;
 }
 
 export function goodBye() {
-  const message = 'Goodbye from my example modern npm package!';
+  const message = "Goodbye from my example modern npm package!";
   return message;
+}
+
+export function removeSpaces(string: string) {
+  return string.replace(/\s/g, "");
+}
+
+export function removeSpacesAndCapitalize(string: string) {
+  return string.replace(/\s/g, "").toUpperCase();
+}
+
+export function isPrime(number: number) {
+  if (number < 2) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(number); i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+export function isEven(number: number) {
+  return number % 2 === 0;
+}
+
+export function isOdd(number: number) {
+  return number % 2 !== 0;
+}
+
+export function isPalindrome(string: string) {
+  return string === string.split("").reverse().join("");
+}
+
+export function isAnagram(string1: string, string2: string) {
+  return (
+    string1.split("").sort().join("") === string2.split("").sort().join("")
+  );
+}
+
+export function isLeapYear(year: number) {
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+}
+
+export function nthFibanoacci(n: number) {
+  if (n <= 1) return n;
+  return nthFibanoacci(n - 1) + nthFibanoacci(n - 2);
 }
 
 export default {
   helloWorld,
   goodBye,
+  removeSpaces,
+  removeSpacesAndCapitalize,
+  isPrime,
+  isEven,
+  isOdd,
+  isPalindrome,
+  isAnagram,
+  isLeapYear,
+  nthFibanoacci,
 };
