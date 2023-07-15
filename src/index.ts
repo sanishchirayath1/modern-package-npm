@@ -50,7 +50,7 @@ export function isLeapYear(year: number) {
   return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }
 
-export function nthFibanoacci(n: number) {
+export function nthFibanoacci(n: number): number {
   if (n <= 1) return n;
   return nthFibanoacci(n - 1) + nthFibanoacci(n - 2);
 }
