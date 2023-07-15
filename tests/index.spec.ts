@@ -384,6 +384,12 @@ describe("isLeapYear function", () => {
     const actual = isLeapYear(2001);
     assert.equal(actual, expected);
   });
+
+  it("should return false for 2002", () => {
+    const expected = false;
+    const actual = isLeapYear(2002);
+    assert.equal(actual, expected);
+  });
 });
 
 describe("nthFibanoacci function", () => {
