@@ -312,6 +312,12 @@ describe("isAnagram function", () => {
     const actual = isAnagram("hello", "ohlle");
     assert.equal(actual, expected);
   });
+
+  it('should return true for "hello" and "ohell"', () => {
+    const expected = false;
+    const actual = isAnagram("hello", "ohell");
+    assert.equal(actual, expected);
+  });
 });
 
 describe("isPalindrome function", () => {
