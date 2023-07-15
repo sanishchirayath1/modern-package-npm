@@ -2,6 +2,8 @@
 
 An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format (CJS). It can be used in Node.js and browser applications.
 
+Read the [blog post](https://snyk.io/blog/best-practices-create-modern-npm-package/) for more information.
+
 ## Get Started
 
 1. Run `npm install` in your terminal
