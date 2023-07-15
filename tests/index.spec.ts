@@ -314,7 +314,7 @@ describe("isAnagram function", () => {
   });
 
   it('should return true for "hello" and "ohell"', () => {
-    const expected = false;
+    const expected = true;
     const actual = isAnagram("hello", "ohell");
     assert.equal(actual, expected);
   });
