@@ -270,6 +270,12 @@ describe("Is Odd Function", () => {
     const actual = isOdd(-3);
     assert.equal(actual, expected);
   });
+
+  it("should return false for -2", () => {
+    const expected = false;
+    const actual = isOdd(-2);
+    assert.equal(actual, expected);
+  });
 });
 
 describe("isAnagram function", () => {
