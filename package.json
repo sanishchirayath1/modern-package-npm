@@ -1,5 +1,5 @@
 {
-  "name": "@snyk-labs/modern-npm-package",
+  "name": "@sanishchirayath/-package-npm",
   "version": "0.0.0-development",
   "description": "An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
   "exports": {
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/snyk-labs/modern-npm-package.git"
+    "url": "https://github.com/sanishchirayath1/modern-package-npm.git"
   },
   "keywords": [
     "npm",
@@ -56,9 +56,9 @@
   "author": "Snyk Labs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snyk-labs/modern-npm-package/issues"
+    "url": "https://github.com/sanishchirayath1/modern-package-npm/issues"
   },
-  "homepage": "https://github.com/snyk-labs/modern-npm-package#readme",
+  "homepage": "https://github.com/sanishchirayath1/modern-package-npm#readme",
   "devDependencies": {
     "@types/mocha": "^9.1.1",
     "mocha": "^10.0.0",
