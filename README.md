@@ -1,5 +1,7 @@
 # modern-npm-package
 
+[![npm (scoped)](https://img.shields.io/npm/v/%40sanishchirayath/modern-package-npm)](https://github.com/sanishchirayath1/modern-package-npm) [![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/%40sanishchirayath/modern-package-npm)](https://github.com/sanishchirayath1/modern-package-npm)
+
 An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format (CJS). It can be used in Node.js and browser applications.
 
 Read the [blog post](https://snyk.io/blog/best-practices-create-modern-npm-package/) for more information.
