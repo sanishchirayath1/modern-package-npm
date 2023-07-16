@@ -13,6 +13,11 @@ jobs:
       packages: write
       contents: write
     steps:
+      - name: Git Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
       - name: Checkout
         uses: actions/checkout@v2
         with:
