@@ -13,6 +13,7 @@ import {
   nthFibanoacci,
   removeSpaces,
   removeSpacesAndCapitalize,
+  randomInteger,
 } from "../src/index";
 import npmPackage from "../src/index";
 
@@ -431,5 +432,35 @@ describe("nthFibanoacci function", () => {
     const expected = 3;
     const actual = nthFibanoacci(4);
     assert.equal(actual, expected);
+  });
+});
+
+describe("Random integer function", () => {
+  it("should be a function", () => {
+    assert.isFunction(randomInteger);
+  });
+
+  it("should return a number", () => {
+    const expected = "number";
+    const actual = typeof randomInteger(1, 10);
+    assert.equal(actual, expected);
+  });
+
+  it("should return a number between 1 and 10", () => {
+    const actual = randomInteger(1, 10);
+    assert.isAtLeast(actual, 1);
+    assert.isAtMost(actual, 10);
+  });
+
+  it("should return a number between 1 and 100", () => {
+    const actual = randomInteger(1, 100);
+    assert.isAtLeast(actual, 1);
+    assert.isAtMost(actual, 100);
+  });
+
+  it("should return a number between 1 and 1000", () => {
+    const actual = randomInteger(1, 1000);
+    assert.isAtLeast(actual, 1);
+    assert.isAtMost(actual, 1000);
   });
 });
