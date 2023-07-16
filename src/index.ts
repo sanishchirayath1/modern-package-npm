@@ -55,6 +55,10 @@ export function nthFibanoacci(n: number): number {
   return nthFibanoacci(n - 1) + nthFibanoacci(n - 2);
 }
 
+export function randomInteger(min: number, max: number) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 export default {
   helloWorld,
   goodBye,
@@ -67,4 +71,5 @@ export default {
   isAnagram,
   isLeapYear,
   nthFibanoacci,
+  randomInteger,
 };
