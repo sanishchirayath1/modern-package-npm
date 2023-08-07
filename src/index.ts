@@ -59,6 +59,19 @@ export function randomInteger(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+
+export function randomIntegerArray(
+  min: number,
+  max: number,
+  length: number
+): number[] {
+  const array: number[] = [];
+  for (let i = 0; i < length; i += 1) {
+    array.push(randomInteger(min, max));
+  }
+  return array;
+}
+
 export default {
   helloWorld,
   goodBye,
@@ -72,4 +85,5 @@ export default {
   isLeapYear,
   nthFibanoacci,
   randomInteger,
+  randomIntegerArray,
 };
