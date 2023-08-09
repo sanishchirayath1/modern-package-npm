@@ -1,6 +1,7 @@
 # modern-npm-package
 [![Maintainability](https://api.codeclimate.com/v1/badges/f6100b2eaa51d397e1b0/maintainability)](https://codeclimate.com/github/sanishchirayath1/modern-package-npm/maintainability)
 [![snyk](https://snyk.io/test/npm/@sanishchirayath/modern-package-npm/badge.svg)](https://snyk.io/test/npm/@sanishchirayath/modern-package-npm)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8317dd28fc8bb91894ef/test_coverage)](https://codeclimate.com/github/sanishchirayath1/modern-package-npm/test_coverage)
 [![npm (scoped)](https://img.shields.io/npm/v/%40sanishchirayath/modern-package-npm)](https://github.com/sanishchirayath1/modern-package-npm)
 [![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/%40sanishchirayath/modern-package-npm)](https://github.com/sanishchirayath1/modern-package-npm)
 
